@@ -18,4 +18,14 @@ images = [tkinter.PhotoImage(file="img/chap6-mapfield.png"),
           tkinter.PhotoImage(file="img/chap6-mapkey.png"),
           tkinter.PhotoImage(file="img/chap6-mapman.png")]
 
+# マップデータ
+MAX_WIDTH = 10
+MAX_HEIGHT = 7
+map_data = [[1, 0, 1, 1, 1, 1, 1, 1, 1, 1],
+            [1, 0, 0, 1, 2, 0, 0, 1, 3, 1],
+            [1, 1, 0, 1, 1, 1, 0, 1, 0, 1],
+            [1, 0, 0, 0, 0, 0, 0, 1, 0, 1],
+            [1, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+            [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
 root.mainloop()
